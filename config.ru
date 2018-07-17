@@ -5,7 +5,6 @@ class App < Sinatra::Base
   get '/' do 
     "Hello, World!"
   end
-end
 
   get '/name' do 
     "Brianna"
@@ -18,5 +17,6 @@ end
   get '/favorite_song'
     "Dope"
   end
+end
 
 run App
