@@ -1,7 +1,6 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-class App < Sinatra::Base
 
   get '/' do 
     "Hello, World!"
@@ -18,6 +17,5 @@ class App < Sinatra::Base
   get '/favorite_song'
     "Dope"
   end
-end
 end
 
